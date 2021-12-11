@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="post">
+    
+          <input type="text" name="text_kapcha" placeholder="Название животного" required><br>
+    
+          <input type="hidden" name="hidden_kapcha" value="'.$slovo.'" ><br>
+    
+          <button name="otpravit" value="Привет!">Отправить</button>
+    
+        </form>
+    </div>
+    <script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var array = ['slon', 'kot', 'kroko', 'mish', 'petuh', 'kon'];
+            alert(array[1]);
+        });
+    </script>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            display: flex;
+            width: 100vw;
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</body>
+</html>
+
+
+
+
+<!--src="//dwweb.ru/__img/php/kapcha/kon.jpg"-->
